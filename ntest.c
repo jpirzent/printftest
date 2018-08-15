@@ -6,7 +6,7 @@
 /*   By: jpirzent <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/15 12:20:20 by jpirzent          #+#    #+#             */
-/*   Updated: 2018/08/15 14:02:01 by jpirzent         ###   ########.fr       */
+/*   Updated: 2018/08/15 14:39:18 by jpirzent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,8 @@ int		main(void)
 
 
 	printf("{|STARTING TEST|}\n");
-
+	printf("________________________________________________\n");
+	
 	printf("%%d positive test\n");
 	ft_printf("ft_printf:\t%d\n", dp);
 	printf("printf:	\t%d\n", dp);
@@ -170,10 +171,6 @@ int		main(void)
 	ft_printf("ft_printf:	%C\n", wc);
 	printf("printf:	\t%C\n", wc);
 	printf("________________________________________________\n");
-
-
-	printf("MAX tests: UINT, INT, LONG\n");
-	ft_printf("%%d:\t%d\n%%D:\t%D\n%%i:\t%i\n");
 
 	printf("{|END OF TEST|}\n");
 }
